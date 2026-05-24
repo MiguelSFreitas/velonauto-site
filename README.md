@@ -29,4 +29,6 @@ Este repositório armazena o ecossistema de código do portal. O foco principal 
 ├── css/
 │   ├── principal.css        # Estilos globais do portal (Cabeçalho, rodapé, fontes)
 │   └── noticia.css          # Layout padrão para o corpo das matérias
-└── imagens/                 # Banco de mídias, logos e ilustrações do site
+└── imagens/                 # Banco de mídias, ilustrações do site
+└── logos/                    # Banco de mídias,Logos do site
+
