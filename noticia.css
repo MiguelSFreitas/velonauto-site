@@ -1,0 +1,175 @@
+/*Cores e configuraçao geral*/
+
+:root {
+    --bg-color: #e4e4e4;       /* Off-White para o fundo do site */
+    --text-color: #545454;     /* Cinza para os textos */
+    --brand-blue: #0376f0;     /* Azul oficial da marca para detalhes */
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/*Header e logotipo*/
+header {
+    max-width: 1000px;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid var(--brand-blue);
+}
+
+/* Container do logo para controle de espaçamento */
+.logo-container {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Estilização exclusiva para o Logotipo da Velon Auto */
+.site-logo {
+    max-width: 280px;  /* Tamanho ideal para leitura e proporção */
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 15px auto 0 auto;
+}
+
+/*Conteudo principal-noticias*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: var(--white);
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* Títulos das seções de notícias */
+section h2 {
+    color: var(--brand-blue);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+/* Detalhe: linha azul decorativa abaixo dos títulos */
+section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--brand-blue);
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+/* Destaca termos em negrito */
+strong {
+    color: #2b2b2b; /* Um cinza um pouco mais escuro para destaque ideal */
+}
+
+/* Cor azul nos nomes fortes institucionais */
+header strong, footer strong {
+    color: var(--brand-blue);
+}
+
+/* Estilo geral das imagens das notícias */
+main img {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 15px 0;
+    display: block;
+}
+
+/* RODAPÉ (Footer)*/
+footer {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--bg-color);
+    margin: 20px auto;
+    width: 40%;
+}
+
+/* Links em azul */
+a {
+    color: var(--brand-blue);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #024b99; /* Tom ligeiramente mais escuro no hover */
+    text-decoration: underline;
+}
+
+/* Abreviações */
+abbr {
+    border-bottom: 1px dotted var(--brand-blue);
+    cursor: help;
+}
+
+/* RESPONSIVIDADE (Telas de Celular)*/
+@media (max-width: 768px) {
+    .site-logo {
+        max-width: 220px; /* Reduz ligeiramente o logo em telas pequenas */
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+    
+    body {
+        padding: 0 10px;
+    }
+}
