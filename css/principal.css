@@ -1,6 +1,4 @@
-/* ==========================================================================
-   VARIÁVEIS DE IDENTIDADE VISUAL
-   ========================================================================== */
+/*---VARIÁVEIS DE IDENTIDADE VISUAL--- */
 :root {
     --bg-color: #e4e4e4;       /* Off-White para o fundo geral */
     --text-color: #545454;     /* Cinza para textos padrões */
@@ -29,9 +27,7 @@ a {
     text-decoration: none;
 }
 
-/* ==========================================================================
-   CABEÇALHO GLOBAL (Header & Nav)
-   ========================================================================== */
+/*---CABEÇALHO GLOBAL (Header & Nav)---*/
 .header-global {
     background-color: var(--white);
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -89,9 +85,7 @@ a {
     border-bottom-color: var(--brand-blue);
 }
 
-/* ==========================================================================
-   VITRINE DA HOME (Layout e Grid)
-   ========================================================================== */
+/* ---VITRINE DA HOME (Layout e Grid)--- */
 .vitrine-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -228,9 +222,7 @@ a {
     font-size: 0.95rem;
 }
 
-/* ==========================================================================
-   RODAPÉ GLOBAL
-   ========================================================================== */
+/* ---RODAPÉ GLOBAL--- */
 .footer-global {
     background-color: var(--white);
     padding: 30px 20px;
@@ -265,9 +257,7 @@ a {
     width: 30%;
 }
 
-/* ==========================================================================
-   RESPONSIVIDADE
-   ========================================================================== */
+/*---RESPONSIVIDADE--- */
 @media (max-width: 768px) {
     .nav-global ul {
         gap: 15px;
