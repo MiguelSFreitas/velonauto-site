@@ -23,12 +23,12 @@ Este repositório armazena o ecossistema de código do portal. O foco principal 
 ## 📂 Estrutura Organizacional do Repositório
 
 ```text
-├── index.html               # Página Inicial / Home (Vitrine com as principais manchetes)
-├── categorias/              # Páginas de categorias (ex: Elétricos, Lançamentos, Segredos)
-├── materias/                # Páginas internas das notícias e artigos jornalísticos
+├── index.html                # Página Inicial / Home (Vitrine com as principais manchetes)
+├── categorias/               # Páginas de categorias (Elétricos, Lançamentos)
+├── materias/                 # Páginas internas das notícias e artigos jornalísticos
 ├── css/
-│   ├── principal.css        # Estilos globais do portal (Cabeçalho, rodapé, fontes)
-│   └── noticia.css          # Layout padrão para o corpo das matérias
-└── imagens/                 # Banco de mídias, ilustrações do site
-└── logos/                    # Banco de mídias,Logos do site
+│   ├── principal.css         # Estilos globais do portal (Cabeçalho, rodapé, fontes)
+│   └── noticia.css           # Layout padrão para o corpo das matérias
+├── imagens/                  # Banco de mídias, ilustrações do site
+└── logos/                    # Banco de mídias, Logos do site
 
